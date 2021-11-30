@@ -24,7 +24,6 @@ export class UserDetailsComponent implements OnInit {
  ngOnInit(): void {
   this.route.params.subscribe(params=>{
     this.id = params.id;
-    //console.log(this.restaurantCode);
   })
   this.getElementById(this.id);
 }

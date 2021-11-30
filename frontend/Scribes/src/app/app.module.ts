@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UsersListComponent } from './users-list/users-list.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { PostDetailsComponent } from './post-details/post-details.component';
+import { PostListComponent } from './post-list/post-list.component';
 
 
 
@@ -21,6 +23,8 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     ProfileComponent,
     UsersListComponent,
     UserDetailsComponent,
+    PostDetailsComponent,
+    PostListComponent,
   ],
   imports: [
     BrowserModule,
